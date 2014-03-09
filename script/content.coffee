@@ -130,7 +130,7 @@ gear =
       springMage:     event: events.spring, specialClass: 'wizard',    text: 'Rodentia Robes', notes: 'Mice are nice! Adds 9 points to INT. Limited Edition 2014 Spring Gear.', value: 90, int: 9
       springHealer:   event: events.spring, specialClass: 'healer',  text: 'Fuzzy Puppy Robes', notes: 'Warm and snuggly, but protects its owner from harm. Adds 15 points to CON. Limited Edition 2014 Spring Gear.', value: 90, con: 15
     mystery:
-      201402: text: 'Messenger Robes', notes: "Shimmering and strong, these robes have many pockets to carry letters.", mystery:mystery['201402'], value: 10
+      201402: text: (-> i18n.t('armorMystery201402Text')), notes: (-> i18n.t('armorMystery201402Notes')), mystery:mystery['201402'], value: 10
       201403: text: 'Forest Walker Armor', notes: "This mossy armor of woven wood bends with the movement of the wearer.", mystery:mystery['201403'], value: 10
 
   head:
@@ -180,7 +180,7 @@ gear =
       springMage:     event: events.spring, specialClass: 'wizard',    text:'Swiss Cheese Hat', notes:'This hat stores lots of powerful magic! Try not to nibble it. Adds 7 points to PER. Limited Edition 2014 Spring Gear.',value: 40,per: 7
       springHealer:   event: events.spring, specialClass: 'healer',  text:'Crown of Friendship', notes:"This crown symbolizes loyalty and companionship. A dog is an adventurer's best friend, after all! Adds 7 points to INT. Limited Edition 2014 Spring Gear.", value: 40, int: 7
     mystery:
-      201402: text: 'Winged Helm', notes: "This winged circlet imbues the wearer with the speed of the wind!", mystery:mystery['201402'], value: 10
+      201402: text: (-> i18n.t('headMystery201402Text')), notes: (-> i18n.t('headMystery201402Notes')), mystery:mystery['201402'], value: 10
 
   shield:
     base:
@@ -226,7 +226,7 @@ gear =
     base:
       0: text: (-> i18n.t('backBase0Text')), notes: (-> i18n.t('backBase0Notes')), value:0
     mystery:
-      201402: text: 'Golden Wings', notes: "These shining wings have feathers that glitter in the sun!", mystery:mystery['201402'], value: 10
+      201402: text: (-> i18n.t('backMystery201402Text')), notes: (-> i18n.t('headMystery201402Notes')), mystery:mystery['201402'], value: 10
 
   headAccessory:
     base:
