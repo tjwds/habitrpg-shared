@@ -9481,13 +9481,9 @@ gear = {
     },
     special: {
       0: {
-        text: (function() {
-          return i18n.t('weaponSpecial0Text');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecial0Notes', {
-            str: 20
-          });
+        text: t('weaponSpecial0Text'),
+        notes: t('weaponSpecial0Notes', {
+          str: 20
         }),
         str: 20,
         value: 150,
@@ -9497,13 +9493,9 @@ gear = {
         })
       },
       1: {
-        text: (function() {
-          return i18n.t('weaponSpecial1Text');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecial1Notes', {
-            attrs: 6
-          });
+        text: t('weaponSpecial1Text'),
+        notes: t('weaponSpecial1Notes', {
+          attrs: 6
         }),
         str: 6,
         per: 6,
@@ -9516,13 +9508,9 @@ gear = {
         })
       },
       2: {
-        text: (function() {
-          return i18n.t('weaponSpecial2Text');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecial2Notes', {
-            attrs: 25
-          });
+        text: t('weaponSpecial2Text'),
+        notes: t('weaponSpecial2Notes', {
+          attrs: 25
         }),
         str: 25,
         per: 25,
@@ -9533,13 +9521,9 @@ gear = {
         })
       },
       3: {
-        text: (function() {
-          return i18n.t('weaponSpecial3Text');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecial3Notes', {
-            attrs: 17
-          });
+        text: t('weaponSpecial3Text'),
+        notes: t('weaponSpecial3Notes', {
+          attrs: 17
         }),
         str: 17,
         int: 17,
@@ -9551,13 +9535,9 @@ gear = {
         })
       },
       critical: {
-        text: (function() {
-          return i18n.t('weaponSpecialCriticalText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialCriticalNotes', {
-            attrs: 40
-          });
+        text: t('weaponSpecialCriticalText'),
+        notes: t('weaponSpecialCriticalNotes', {
+          attrs: 40
         }),
         str: 40,
         per: 40,
@@ -9572,13 +9552,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'warrior';
         }),
-        text: (function() {
-          return i18n.t('weaponSpecialYetiText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialYetiNotes', {
-            str: 15
-          });
+        text: t('weaponSpecialYetiText'),
+        notes: t('weaponSpecialYetiNotes', {
+          str: 15
         }),
         str: 15,
         value: 90
@@ -9588,13 +9564,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'rogue';
         }),
-        text: (function() {
-          return i18n.t('weaponSpecialSkiText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialSkiNotes', {
-            str: 8
-          });
+        text: t('weaponSpecialSkiText'),
+        notes: t('weaponSpecialSkiNotes', {
+          str: 8
         }),
         str: 8,
         value: 90
@@ -9605,14 +9577,10 @@ gear = {
           return u.stats["class"] === 'wizard';
         }),
         twoHanded: true,
-        text: (function() {
-          return i18n.t('weaponSpecialCandycaneText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialCandycaneNotes', {
-            int: 15,
-            per: 7
-          });
+        text: t('weaponSpecialCandycaneText'),
+        notes: t('weaponSpecialCandycaneNotes', {
+          int: 15,
+          per: 7
         }),
         int: 15,
         per: 7,
@@ -9623,13 +9591,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'healer';
         }),
-        text: (function() {
-          return i18n.t('weaponSpecialSnowflakeText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialSnowflakeNotes', {
-            int: 9
-          });
+        text: t('weaponSpecialSnowflakeText'),
+        notes: t('weaponSpecialSnowflakeNotes', {
+          int: 9
         }),
         int: 9,
         value: 90
@@ -9637,13 +9601,9 @@ gear = {
       springRogue: {
         event: events.spring,
         specialClass: 'rogue',
-        text: (function() {
-          return i18n.t('weaponSpecialSpringRogueText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialSpringRogueNotes', {
-            str: 8
-          });
+        text: t('weaponSpecialSpringRogueText'),
+        notes: t('weaponSpecialSpringRogueNotes', {
+          str: 8
         }),
         value: 80,
         str: 8
@@ -9651,13 +9611,9 @@ gear = {
       springWarrior: {
         event: events.spring,
         specialClass: 'warrior',
-        text: (function() {
-          return i18n.t('weaponSpecialSpringWarriorText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialSpringWarriorNotes', {
-            str: 15
-          });
+        text: t('weaponSpecialSpringWarriorText'),
+        notes: t('weaponSpecialSpringWarriorNotes', {
+          str: 15
         }),
         value: 90,
         str: 15
@@ -9666,14 +9622,10 @@ gear = {
         event: events.spring,
         specialClass: 'wizard',
         twoHanded: true,
-        text: (function() {
-          return i18n.t('weaponSpecialSpringMageText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialSpringMageNotes', {
-            int: 15,
-            per: 7
-          });
+        text: t('weaponSpecialSpringMageText'),
+        notes: t('weaponSpecialSpringMageNotes', {
+          int: 15,
+          per: 7
         }),
         value: 160,
         int: 15,
@@ -9682,13 +9634,9 @@ gear = {
       springHealer: {
         event: events.spring,
         specialClass: 'healer',
-        text: (function() {
-          return i18n.t('weaponSpecialSpringHealerText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialSpringHealerNotes', {
-            int: 9
-          });
+        text: t('weaponSpecialSpringHealerText'),
+        notes: t('weaponSpecialSpringHealerNotes', {
+          int: 9
         }),
         value: 90,
         int: 9
@@ -9877,13 +9825,9 @@ gear = {
     },
     special: {
       0: {
-        text: (function() {
-          return i18n.t('armorSpecial0Text');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecial0Notes', {
-            con: 20
-          });
+        text: t('armorSpecial0Text'),
+        notes: t('armorSpecial0Notes', {
+          con: 20
         }),
         con: 20,
         value: 150,
@@ -9893,13 +9837,9 @@ gear = {
         })
       },
       1: {
-        text: (function() {
-          return i18n.t('armorSpecial1Text');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecial1Notes', {
-            attrs: 6
-          });
+        text: t('armorSpecial1Text'),
+        notes: t('armorSpecial1Notes', {
+          attrs: 6
         }),
         con: 6,
         str: 6,
@@ -9912,13 +9852,9 @@ gear = {
         })
       },
       2: {
-        text: (function() {
-          return i18n.t('armorSpecial2Text');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecial2Notes', {
-            attrs: 25
-          });
+        text: t('armorSpecial2Text'),
+        notes: t('armorSpecial2Notes', {
+          attrs: 25
         }),
         int: 25,
         con: 25,
@@ -9933,13 +9869,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'warrior';
         }),
-        text: (function() {
-          return i18n.t('armorSpecialYetiText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialYetiNotes', {
-            con: 9
-          });
+        text: t('armorSpecialYetiText'),
+        notes: t('armorSpecialYetiNotes', {
+          con: 9
         }),
         con: 9,
         value: 90
@@ -9949,13 +9881,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'rogue';
         }),
-        text: (function() {
-          return i18n.t('armorSpecialSkiText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialSkiText', {
-            per: 15
-          });
+        text: t('armorSpecialSkiText'),
+        notes: t('armorSpecialSkiText', {
+          per: 15
         }),
         per: 15,
         value: 90
@@ -9965,13 +9893,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'wizard';
         }),
-        text: (function() {
-          return i18n.t('armorSpecialCandycaneText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialCandycaneNotes', {
-            int: 9
-          });
+        text: t('armorSpecialCandycaneText'),
+        notes: t('armorSpecialCandycaneNotes', {
+          int: 9
         }),
         int: 9,
         value: 90
@@ -9981,37 +9905,25 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'healer';
         }),
-        text: (function() {
-          return i18n.t('armorSpecialSnowflakeText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialSnowflakeNotes', {
-            con: 15
-          });
+        text: t('armorSpecialSnowflakeText'),
+        notes: t('armorSpecialSnowflakeNotes', {
+          con: 15
         }),
         con: 15,
         value: 90
       },
       birthday: {
         event: events.birthday,
-        text: (function() {
-          return i18n.t('armorSpecialBirthdayText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialBirthdayNotes');
-        }),
+        text: t('armorSpecialBirthdayText'),
+        notes: t('armorSpecialBirthdayNotes'),
         value: 0
       },
       springRogue: {
         event: events.spring,
         specialClass: 'rogue',
-        text: (function() {
-          return i18n.t('armorSpecialSpringRogueText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialSpringRogueNotes', {
-            per: 15
-          });
+        text: t('armorSpecialSpringRogueText'),
+        notes: t('armorSpecialSpringRogueNotes', {
+          per: 15
         }),
         value: 90,
         per: 15
@@ -10019,13 +9931,9 @@ gear = {
       springWarrior: {
         event: events.spring,
         specialClass: 'warrior',
-        text: (function() {
-          return i18n.t('armorSpecialSpringWarriorText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialSpringWarriorNotes', {
-            con: 9
-          });
+        text: t('armorSpecialSpringWarriorText'),
+        notes: t('armorSpecialSpringWarriorNotes', {
+          con: 9
         }),
         value: 90,
         con: 9
@@ -10033,13 +9941,9 @@ gear = {
       springMage: {
         event: events.spring,
         specialClass: 'wizard',
-        text: (function() {
-          return i18n.t('armorSpecialSpringMageText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialSpringMageNotes', {
-            int: 9
-          });
+        text: t('armorSpecialSpringMageText'),
+        notes: t('armorSpecialSpringMageNotes', {
+          int: 9
         }),
         value: 90,
         int: 9
@@ -10047,13 +9951,9 @@ gear = {
       springHealer: {
         event: events.spring,
         specialClass: 'healer',
-        text: (function() {
-          return i18n.t('armorSpecialSpringHealerText');
-        }),
-        notes: (function() {
-          return i18n.t('armorSpecialSpringHealerNotes', {
-            con: 15
-          });
+        text: t('armorSpecialSpringHealerText'),
+        notes: t('armorSpecialSpringHealerNotes', {
+          con: 15
         }),
         value: 90,
         con: 15
@@ -10061,22 +9961,14 @@ gear = {
     },
     mystery: {
       201402: {
-        text: (function() {
-          return i18n.t('armorMystery201402Text');
-        }),
-        notes: (function() {
-          return i18n.t('armorMystery201402Notes');
-        }),
+        text: t('armorMystery201402Text'),
+        notes: t('armorMystery201402Notes'),
         mystery: mystery['201402'],
         value: 10
       },
       201403: {
-        text: (function() {
-          return i18n.t('armorMystery201403Text');
-        }),
-        notes: (function() {
-          return i18n.t('armorMystery201403Notes');
-        }),
+        text: t('armorMystery201403Text'),
+        notes: t('armorMystery201403Notes'),
         mystery: mystery['201403'],
         value: 10
       }
@@ -10264,13 +10156,9 @@ gear = {
     },
     special: {
       0: {
-        text: (function() {
-          return i18n.t('headSpecial0Text');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecial0Notes', {
-            int: 20
-          });
+        text: t('headSpecial0Text'),
+        notes: t('headSpecial0Notes', {
+          int: 20
         }),
         int: 20,
         value: 150,
@@ -10280,13 +10168,9 @@ gear = {
         })
       },
       1: {
-        text: (function() {
-          return i18n.t('headSpecial1Text');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecial1Notes', {
-            attrs: 6
-          });
+        text: t('headSpecial1Text'),
+        notes: t('headSpecial1Notes', {
+          attrs: 6
         }),
         con: 6,
         str: 6,
@@ -10299,13 +10183,9 @@ gear = {
         })
       },
       2: {
-        text: (function() {
-          return i18n.t('headSpecial2Text');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecial2Notes', {
-            attrs: 25
-          });
+        text: t('headSpecial2Text'),
+        notes: t('headSpecial2Notes', {
+          attrs: 25
         }),
         int: 25,
         str: 25,
@@ -10317,12 +10197,8 @@ gear = {
       },
       nye: {
         event: events.winter,
-        text: (function() {
-          return i18n.t('headSpecialNyeText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialNyeNotes');
-        }),
+        text: t('headSpecialNyeText'),
+        notes: t('headSpecialNyeNotes'),
         value: 0
       },
       yeti: {
@@ -10330,13 +10206,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'warrior';
         }),
-        text: (function() {
-          return i18n.t('headSpecialYetiText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialYetiNotes', {
-            str: 9
-          });
+        text: t('headSpecialYetiText'),
+        notes: t('headSpecialYetiNotes', {
+          str: 9
         }),
         str: 9,
         value: 60
@@ -10346,13 +10218,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'rogue';
         }),
-        text: (function() {
-          return i18n.t('headSpecialSkiText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialSkiNotes', {
-            per: 9
-          });
+        text: t('headSpecialSkiText'),
+        notes: t('headSpecialSkiNotes', {
+          per: 9
         }),
         per: 9,
         value: 60
@@ -10362,13 +10230,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'wizard';
         }),
-        text: (function() {
-          return i18n.t('headSpecialCanycaneText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialCanycaneNotes', {
-            per: 7
-          });
+        text: t('headSpecialCanycaneText'),
+        notes: t('headSpecialCanycaneNotes', {
+          per: 7
         }),
         per: 7,
         value: 60
@@ -10378,13 +10242,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'healer';
         }),
-        text: (function() {
-          return i18n.t('headSpecialSnowflakeText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialSnowflakeNotes', {
-            int: 7
-          });
+        text: t('headSpecialSnowflakeText'),
+        notes: t('headSpecialSnowflakeNotes', {
+          int: 7
         }),
         int: 7,
         value: 60
@@ -10392,13 +10252,9 @@ gear = {
       springRogue: {
         event: events.spring,
         specialClass: 'rogue',
-        text: (function() {
-          return i18n.t('headSpecialSpringRogueText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialSpringRogueNotes', {
-            per: 9
-          });
+        text: t('headSpecialSpringRogueText'),
+        notes: t('headSpecialSpringRogueNotes', {
+          per: 9
         }),
         value: 40,
         per: 9
@@ -10406,13 +10262,9 @@ gear = {
       springWarrior: {
         event: events.spring,
         specialClass: 'warrior',
-        text: (function() {
-          return i18n.t('headSpecialSpringWarriorText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialSpringWarriorNotes', {
-            str: 9
-          });
+        text: t('headSpecialSpringWarriorText'),
+        notes: t('headSpecialSpringWarriorNotes', {
+          str: 9
         }),
         value: 40,
         str: 9
@@ -10420,13 +10272,9 @@ gear = {
       springMage: {
         event: events.spring,
         specialClass: 'wizard',
-        text: (function() {
-          return i18n.t('headSpecialSpringMageText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialSpringMageNotes', {
-            per: 7
-          });
+        text: t('headSpecialSpringMageText'),
+        notes: t('headSpecialSpringMageNotes', {
+          per: 7
         }),
         value: 40,
         per: 7
@@ -10434,13 +10282,9 @@ gear = {
       springHealer: {
         event: events.spring,
         specialClass: 'healer',
-        text: (function() {
-          return i18n.t('headSpecialSpringHealerText');
-        }),
-        notes: (function() {
-          return i18n.t('headSpecialSpringHealerNotes', {
-            int: 7
-          });
+        text: t('headSpecialSpringHealerText'),
+        notes: t('headSpecialSpringHealerNotes', {
+          int: 7
         }),
         value: 40,
         int: 7
@@ -10609,13 +10453,9 @@ gear = {
     },
     special: {
       0: {
-        text: (function() {
-          return i18n.t('shieldSpecial0Text');
-        }),
-        notes: (function() {
-          return i18n.t('shieldSpecial0Notes', {
-            per: 20
-          });
+        text: t('shieldSpecial0Text'),
+        notes: t('shieldSpecial0Notes', {
+          per: 20
         }),
         per: 20,
         value: 150,
@@ -10625,13 +10465,9 @@ gear = {
         })
       },
       1: {
-        text: (function() {
-          return i18n.t('shieldSpecial1Text');
-        }),
-        notes: (function() {
-          return i18n.t('shieldSpecial1Notes', {
-            attrs: 6
-          });
+        text: t('shieldSpecial1Text'),
+        notes: t('shieldSpecial1Notes', {
+          attrs: 6
         }),
         con: 6,
         str: 6,
@@ -10648,13 +10484,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'warrior';
         }),
-        text: (function() {
-          return i18n.t('shieldSpecialYetiText');
-        }),
-        notes: (function() {
-          return i18n.t('shieldSpecialYetiNotes', {
-            con: 7
-          });
+        text: t('shieldSpecialYetiText'),
+        notes: t('shieldSpecialYetiNotes', {
+          con: 7
         }),
         con: 7,
         value: 70
@@ -10664,13 +10496,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'rogue';
         }),
-        text: (function() {
-          return i18n.t('weaponSpecialSkiText');
-        }),
-        notes: (function() {
-          return i18n.t('weaponSpecialSkiNotes', {
-            str: 8
-          });
+        text: t('weaponSpecialSkiText'),
+        notes: t('weaponSpecialSkiNotes', {
+          str: 8
         }),
         str: 8,
         value: 90
@@ -10680,13 +10508,9 @@ gear = {
         canOwn: (function(u) {
           return u.stats["class"] === 'healer';
         }),
-        text: (function() {
-          return i18n.t('shieldSpecialSnowflakeText');
-        }),
-        notes: (function() {
-          return i18n.t('shieldSpecialSnowflakeNotes', {
-            con: 9
-          });
+        text: t('shieldSpecialSnowflakeText'),
+        notes: t('shieldSpecialSnowflakeNotes', {
+          con: 9
         }),
         con: 9,
         value: 70
@@ -10694,13 +10518,9 @@ gear = {
       springRogue: {
         event: events.spring,
         specialClass: 'rogue',
-        text: (function() {
-          return i18n.t('shieldSpecialSpringRogueText');
-        }),
-        notes: (function() {
-          return i18n.t('shieldSpecialSpringRogueNotes', {
-            str: 8
-          });
+        text: t('shieldSpecialSpringRogueText'),
+        notes: t('shieldSpecialSpringRogueNotes', {
+          str: 8
         }),
         value: 80,
         str: 8
@@ -10708,13 +10528,9 @@ gear = {
       springWarrior: {
         event: events.spring,
         specialClass: 'warrior',
-        text: (function() {
-          return i18n.t('shieldSpecialSpringWarriorText');
-        }),
-        notes: (function() {
-          return i18n.t('shieldSpecialSpringWarriorNotes', {
-            con: 7
-          });
+        text: t('shieldSpecialSpringWarriorText'),
+        notes: t('shieldSpecialSpringWarriorNotes', {
+          con: 7
         }),
         value: 70,
         con: 7
@@ -10722,13 +10538,9 @@ gear = {
       springHealer: {
         event: events.spring,
         specialClass: 'healer',
-        text: (function() {
-          return i18n.t('shieldSpecialSpringHealerText');
-        }),
-        notes: (function() {
-          return i18n.t('shieldSpecialSpringHealerNotes', {
-            con: 9
-          });
+        text: t('shieldSpecialSpringHealerText'),
+        notes: t('shieldSpecialSpringHealerNotes', {
+          con: 9
         }),
         value: 70,
         con: 9
@@ -10738,12 +10550,8 @@ gear = {
   back: {
     base: {
       0: {
-        text: (function() {
-          return i18n.t('backBase0Text');
-        }),
-        notes: (function() {
-          return i18n.t('backBase0Notes');
-        }),
+        text: t('backBase0Text'),
+        notes: t('backBase0Notes'),
         value: 0
       }
     },
@@ -10759,12 +10567,8 @@ gear = {
   headAccessory: {
     base: {
       0: {
-        text: (function() {
-          return i18n.t('headAccessoryBase0Text');
-        }),
-        notes: (function() {
-          return i18n.t('headAccessoryBase0Notes');
-        }),
+        text: t('headAccessoryBase0Text'),
+        notes: t('headAccessoryBase0Notes'),
         value: 0,
         last: true
       }
@@ -10773,56 +10577,36 @@ gear = {
       springRogue: {
         event: events.spring,
         specialClass: 'rogue',
-        text: (function() {
-          return i18n.t('headAccessorySpecialSpringRogueText');
-        }),
-        notes: (function() {
-          return i18n.t('headAccessorySpecialSpringRogueNotes');
-        }),
+        text: t('headAccessorySpecialSpringRogueText'),
+        notes: t('headAccessorySpecialSpringRogueNotes'),
         value: 20
       },
       springWarrior: {
         event: events.spring,
         specialClass: 'warrior',
-        text: (function() {
-          return i18n.t('headAccessorySpecialSpringWarriorText');
-        }),
-        notes: (function() {
-          return i18n.t('headAccessorySpecialSpringWarriorNotes');
-        }),
+        text: t('headAccessorySpecialSpringWarriorText'),
+        notes: t('headAccessorySpecialSpringWarriorNotes'),
         value: 20
       },
       springMage: {
         event: events.spring,
         specialClass: 'wizard',
-        text: (function() {
-          return i18n.t('headAccessorySpecialSpringMageText');
-        }),
-        notes: (function() {
-          return i18n.t('headAccessorySpecialSpringMageNotes');
-        }),
+        text: t('headAccessorySpecialSpringMageText'),
+        notes: t('headAccessorySpecialSpringMageNotes'),
         value: 20
       },
       springHealer: {
         event: events.spring,
         specialClass: 'healer',
-        text: (function() {
-          return i18n.t('headAccessorySpecialSpringHealerText');
-        }),
-        notes: (function() {
-          return i18n.t('headAccessorySpecialSpringHealerNotes');
-        }),
+        text: t('headAccessorySpecialSpringHealerText'),
+        notes: t('headAccessorySpecialSpringHealerNotes'),
         value: 20
       }
     },
     mystery: {
       201403: {
-        text: (function() {
-          return i18n.t('headAccessoryMistery201403Text');
-        }),
-        notes: (function() {
-          return i18n.t('headAccessoryMistery201403Notes');
-        }),
+        text: t('headAccessoryMistery201403Text'),
+        notes: t('headAccessoryMistery201403Notes'),
         mystery: mystery['201403'],
         value: 10
       }
@@ -11290,30 +11074,18 @@ _.each(api.dropEggs, function(egg, key) {
 
 api.questEggs = {
   Gryphon: {
-    text: (function() {
-      return i18n.t('questEggGryphonText');
-    }),
-    adjective: (function() {
-      return i18n.t('questEggGryphonAdjective');
-    }),
+    text: t('questEggGryphonText'),
+    adjective: t('questEggGryphonAdjective'),
     canBuy: false
   },
   Hedgehog: {
-    text: (function() {
-      return i18n.t('questEggHedgehogText');
-    }),
-    adjective: (function() {
-      return i18n.t('questEggHedgehogAdjective');
-    }),
+    text: t('questEggHedgehogText'),
+    adjective: t('questEggHedgehogAdjective'),
     canBuy: false
   },
   Deer: {
-    text: (function() {
-      return i18n.t('questEggDeerText');
-    }),
-    adjective: (function() {
-      return i18n.t('questEggDeerAdjective');
-    }),
+    text: t('questEggDeerText'),
+    adjective: t('questEggDeerAdjective'),
     canBuy: false
   }
 };
@@ -11606,21 +11378,15 @@ api.quests = {
         {
           type: 'eggs',
           key: 'Gryphon',
-          text: (function() {
-            return i18n.t('questGryphonDropGryphonEgg');
-          })
+          text: t('questGryphonDropGryphonEgg')
         }, {
           type: 'eggs',
           key: 'Gryphon',
-          text: (function() {
-            return i18n.t('questGryphonDropGryphonEgg');
-          })
+          text: t('questGryphonDropGryphonEgg')
         }, {
           type: 'eggs',
           key: 'Gryphon',
-          text: (function() {
-            return i18n.t('questGryphonDropGryphonEgg');
-          })
+          text: t('questGryphonDropGryphonEgg')
         }
       ],
       gp: 25,
@@ -11642,21 +11408,15 @@ api.quests = {
         {
           type: 'eggs',
           key: 'Hedgehog',
-          text: (function() {
-            return i18n.t('questHedgehogDropHedgehodEgg');
-          })
+          text: t('questHedgehogDropHedgehogEgg')
         }, {
           type: 'eggs',
           key: 'Hedgehog',
-          text: (function() {
-            return i18n.t('questHedgehogDropHedgehodEgg');
-          })
+          text: t('questHedgehogDropHedgehogEgg')
         }, {
           type: 'eggs',
           key: 'Hedgehog',
-          text: (function() {
-            return i18n.t('questHedgehogDropHedgehodEgg');
-          })
+          text: t('questHedgehogDropHedgehogEgg')
         }
       ],
       gp: 30,
@@ -11678,21 +11438,15 @@ api.quests = {
         {
           type: 'eggs',
           key: 'Deer',
-          text: (function() {
-            return i18n.t('questGhostStagDropDeerEgg');
-          })
+          text: t('questGhostStagDropDeerEgg')
         }, {
           type: 'eggs',
           key: 'Deer',
-          text: (function() {
-            return i18n.t('questGhostStagDropDeerEgg');
-          })
+          text: t('questGhostStagDropDeerEgg')
         }, {
           type: 'eggs',
           key: 'Deer',
-          text: (function() {
-            return i18n.t('questGhostStagDropDeerEgg');
-          })
+          text: t('questGhostStagDropDeerEgg')
         }
       ],
       gp: 80,
